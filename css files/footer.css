@@ -1,0 +1,107 @@
+      /* Footer Styles */
+.footer {
+  background-color: #3e4551;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-content,
+.footer-links,
+.footer-follow {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.footer-heading {
+  font-size: 18px;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #f8f9fa;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #f8f9fa;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Marquee Styles */
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee-scroll 20s linear infinite;
+}
+
+.marquee-content p {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+/* Marquee Animation */
+@keyframes marquee-scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Additional CSS for fade animation */
+.fade-in {
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Additional CSS for hover fade animation */
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}

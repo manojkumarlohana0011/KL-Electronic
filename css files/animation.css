@@ -1,0 +1,37 @@
+/* Define the fade-in animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the fade-in animation to all elements with the "animate__fadeIn" class */
+.animate__fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+/* Define the fade-in-left animation */
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px); /* Start from 50px to the left */
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); /* End at the original position */
+    }
+}
+
+/* Apply the fade-in-left animation to all elements with the "animate__fadeInLeft" class */
+.animate__fadeInLeft {
+    animation-name: fadeInLeft;
+    animation-duration: 5s;
+    display: flex;
+    flex-direction: row;
+}
+

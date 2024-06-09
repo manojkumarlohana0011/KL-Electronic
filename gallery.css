@@ -1,0 +1,93 @@
+
+            /* Styling for the gallery container */
+            #gallery {
+              display: flex; /* Make the container flex */
+              justify-content: center; /* Center the items horizontally */
+              align-items: center; /* Center the items vertically */
+              flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+              margin-bottom: 20px; /* Add some space at the bottom */
+            }
+            
+            /* Styling for the gallery images */
+            .g-image-1{
+              background-image: url(./images/cards/charger/charger.jpeg);
+              background-position: top;
+              transition: all 1s ease-in-out;
+              background-size: cover;
+              margin: 5px; 
+              }
+              .g-image-1:hover{
+                background-image: url(./images/cards/charger/charger\ \(1\).jpeg);
+                background-position: bottom;
+                background-size: cover;      
+              }
+          .g-image-2{
+              background-image: url(./images/cards/head_phones/head\ phones.jpg);
+              background-position: top;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+              margin: 5px;
+          }
+          .g-image-2:hover{
+              background-image: url(./images/cards/head_phones/head\ phones\ \(2\).jpg);
+              background-position: bottom;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+          }
+          .g-image-3{
+              background-image: url(./images/cards/computer/computer\ \(1\).jpg);
+              background-position: top;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+              margin: 5px;
+          }
+          .g-image-3:hover{
+              background-image: url(./images/cards/computer/computer\ \(2\).jpg);
+              background-position: bottom;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+          }
+          
+          .g-image-4{
+              background-image: url(./images/cards/laptop/laptop\ \(1\).jpg);
+              background-position: top;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+              margin: 5px;
+          }
+          .g-image-4:hover{
+              background-image: url(./images/cards/laptop/laptop\ \(2\).jpg);
+              background-position: bottom;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+          }
+          
+          .g-image-5{
+              background-image: url(./images/cards/mobile/mobiles\ \(1\).avif);
+              background-position: top;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+              margin: 5px;
+          }
+          .g-image-5:hover{
+              background-image: url(./images/cards/mobile/mobiles\ \(1\).jpg);
+              background-position: bottom;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+          }
+          
+          
+          .g-image-6{
+              background-image: url(./images/cards/power_bank/pb.jpg);
+              background-position: top;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+              margin: 5px;
+          }
+          .g-image-6:hover{
+              background-image: url(./images/cards/power_bank/pb\ \(2\).jpg);
+              background-position: bottom;
+              background-size: cover;
+              transition: all 1s ease-in-out; 
+          }
+      

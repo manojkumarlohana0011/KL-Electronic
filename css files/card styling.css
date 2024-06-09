@@ -1,0 +1,81 @@
+  /* Heading style */
+      h1 {
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 30px;
+        color: #333;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+      }
+    
+      .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 20px auto;
+        max-width: 1000px;
+      }
+    
+      .card {
+        width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        transition: box-shadow 0.3s ease, opacity 0.5s ease-in-out;
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+      }
+    
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    
+      .card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      }
+    
+      .card img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    
+      .card h2 {
+        margin-top: 10px;
+      }
+    
+      .card p {
+        margin-bottom: 10px;
+      }
+    
+      .card button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+    
+      .card button:hover {
+        background-color: #0056b3;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.0);
+      }
+      .card button:hover {
+        transform: rotate(360deg);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      
+      

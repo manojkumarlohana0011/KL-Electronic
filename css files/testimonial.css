@@ -1,0 +1,31 @@
+.testimonial {
+                text-align: center;
+            }
+            #testimonial-img {
+                width: 150px;
+                margin: 0 auto 10px;
+            }
+            .testimonial-text {
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
+            .testimonial-author {
+                font-style: italic;
+                font-weight: bold;
+            }
+            .testimonial-nav {
+                text-align: center;
+                margin-top: 20px;
+            }
+            .testimonial-nav button {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px;
+                margin: 0 5px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            .testimonial-nav button:hover {
+                background-color: #0056b3;
+            }

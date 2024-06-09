@@ -1,0 +1,43 @@
+
+            /* Container for About Us section */
+            .about-container {
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 50px;
+            }
+    
+            /* Heading style */
+            h1 {
+                text-align: center;
+                font-size: 36px;
+                margin-bottom: 30px;
+                color: #333;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+    
+            /* Paragraph style */
+            p {
+                font-size: 18px;
+                line-height: 1.6;
+                color: #555;
+            }
+    
+            /* Animate CSS classes */
+            .animate__animated {
+                animation-duration: 5s;
+            }
+    
+            .animate__fadeInUp {
+                animation-name: fadeInUp;
+            }
+    
+            /* Image style */
+            .company-image {
+                display: block;
+                margin: 0 auto;
+                max-width: 400px;
+                height: auto;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }

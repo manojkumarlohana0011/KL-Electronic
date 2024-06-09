@@ -1,0 +1,22 @@
+html{
+    scroll-behavior: auto;
+}
+
+
+.footer{
+color: white;
+}
+
+/* New fade animation */
+.testimonial-carousel .slick-slide {
+    transition: opacity 0.5s ease-in-out;
+}
+.testimonial-carousel .slick-active {
+    opacity: 1;
+}
+.testimonial-carousel .slick-slide {
+    opacity: 0;
+}
+img{
+    object-fit: cover;
+}

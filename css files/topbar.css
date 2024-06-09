@@ -1,0 +1,115 @@
+        /* Responsive CSS */
+@media screen and (max-width: 768px) {
+    .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .search-input {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search-button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .open-btn {
+        font-size: 24px;
+        padding: 8px 12px; /* Adjust padding */
+        border-radius: 4px; /* Adjust border-radius */
+    }
+}
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+    
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+    
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+    
+        .sidebar .close-btn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+    
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+    
+        .open-btn {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 2;
+        }
+    
+        /* Basic CSS for Topbar */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .topbar {
+            background-color: #333;
+            overflow: hidden;
+            padding: 10px 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            width: 2s00px;
+            height: 200px;
+        }
+        
+        .search-input {
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-right: 10px; /* Adjusted margin */
+        }
+        
+        .search-button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 8px 20px; /* Adjusted padding */
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+        }
+                

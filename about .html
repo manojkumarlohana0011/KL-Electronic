@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - MK Computers</title>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hack-font/3.3.0/web/hack.min.css" integrity="sha512-XgCw4Srl8lC1ECwcaHwAU0WnxQwHkqmInzg9wJLtGB7DRuMaXPuK2k9WJ2AwRDGdrgK9eJpZl2hUlLi2WQssmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fontfaceobserver/2.3.0/fontfaceobserver.standalone.js" integrity="sha512-AtGkQVw5dVZR8URiScMJF/O46VB5I4JRo+wsLSwCKvtnlCwlWV/59excjg1+hFmuXuQhwYvoADflVbN4fMAKNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.1.0/font-face.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" integrity="sha512-rRQtF4V2wtAvXsou4iUAs2kXHi3Lj9NE7xJR77DE7GHsxgY9RTWy93dzMXgDIG8ToiRTD45VsDNdTiUagOFeZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Font Awesome CDN -->
+
+
+<!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+<!-- Bootstrap CSS CDN -->
+
+
+<!-- bootstrap links -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- bootstrap links -->
+
+
+<!-- icons links -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/bootstrap-icons.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-icons/12.1.0/simpleicons.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/4.0.0/iconfont/material-icons.min.css" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/1.35.0/iconfont/tabler-icons.min.css" referrerpolicy="no-referrer" />
+
+
+<!-- icons links -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./css files/about.css">
+    <link rel="stylesheet" href="./css files/navbar.css">
+    <style>
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidebar a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+    
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+    
+        .sidebar .close-btn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+    
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+    
+        .open-btn {
+            font-size: 30px;
+            cursor: pointer;
+            position: fixed;
+            z-index: 2;
+            color:white;
+        }
+
+        
+        .bk{
+            background-image: url(./images/banner/premium_photo-1675793714917-dd0f7efc0165.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        /* Container for About Us section */
+.about-container {
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5%; /* Adjusted padding for responsiveness */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    font-size: 2.5rem; /* Adjusted font size for responsiveness */
+    margin-bottom: 2rem; /* Adjusted margin for responsiveness */
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraph style */
+p {
+    font-size: 1.125rem; /* Adjusted font size for responsiveness */
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Animate CSS classes */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeInUp {
+    animation-name: fadeInUp;
+}
+
+/* Image style */
+.company-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Adjusted width to fit container */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+    .about-container {
+        padding: 3%; /* Adjusted padding for smaller screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Adjusted font size for smaller screens */
+    }
+
+    p {
+        font-size: 1rem; /* Adjusted font size for smaller screens */
+    }
+}
+v
+        /* Carousel Styles */
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 100%;
+  }
+  
+  .carousel p {
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+  .carousel-prev,
+  .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: 10px;
+  }
+  
+  .carousel-next {
+    right: 10px;
+  }#search-input {
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 800px; /* Maximum width to maintain readability */
+    height: 50px;
+    margin: 0 auto; /* Centering horizontally */
+    text-align: center;
+    border-radius: 5%;
+    margin-left:100px;
+  }
+  
+  .search-button {
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 200px; /* Maximum width to maintain readability */
+    height: 50px;
+    background-color: white;
+    margin: 10px auto; /* Centering horizontally with some space from the input */
+  }
+  
+  /* Media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    #search-input {
+      width: 90%; /* Adjusted width for smaller screens */
+      margin-left:10px;
+    }
+  
+    .search-button {
+      width: 90%; /* Adjusted width for smaller screens */
+    }
+  }
+  
+  
+  .search-button:hover{
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+  }
+    </style>
+</head>
+<body>
+
+
+    
+    <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#service">Services</a>
+    <a href="#">Contact</a>
+    </nav>
+    
+    
+    
+    
+    <script>
+    function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+    }
+    </script>
+    
+<div class="bk">
+
+    <div class="topbar">
+        <div id="main">
+            <span class="open-btn" onclick="openNav()">☰</span>
+        </div>
+        
+    
+        <input type="text" placeholder="Search..." class="rounded-pill" id="search-input">
+        <button class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+          </svg></button>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="close-btn" onclick="closeNav()">×</a>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+    </div>
+    
+
+
+    
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+
+    <div class="topb"></div>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p>This is the first slide.</p>
+          </div>
+          <div class="carousel-item">
+            <p>This is the second slide.</p>
+          </div>
+          <div class="carousel-item">
+            <p>This is the third slide.</p>
+          </div>
+        </div>
+        <button class="carousel-prev" onclick="changeSlide(-1)">Prev</button>
+        <button class="carousel-next" onclick="changeSlide(1)">Next</button>
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+    
+</div>
+
+<div class="about-container animate__animated animate__fadeInUp">
+    <h1 id="about">About Us</h1>
+    <img src="./images/carousel/pakata-goh-EJMTKCZ00I0-unsplash.jpg" alt="Company Image" class="company-image">
+    <p>Welcome to MK Computers, your one-stop destination for all your computing needs. We specialize in providing high-quality electronic products, repair services, and personalized support to our valued customers.</p>
+    <p>At MK Computers, we understand the importance of technology in today's world. Whether you're looking for the latest gadgets or need assistance with your existing devices, our dedicated team is here to help.</p>
+    <p>Our mission is to deliver exceptional products and services that exceed our customers' expectations. With our expertise and commitment to excellence, we strive to be the leading choice for all your technology needs.</p>
+    <p>Explore our website to learn more about our offerings, or visit our store to experience our exceptional service firsthand. Join the MK Computers family today and let us help you stay connected in the digital age.</p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script>
+    let currentIndex = 0;
+const carouselItems = document.querySelectorAll('.carousel-item');
+
+function changeSlide(direction) {
+  currentIndex = (currentIndex + direction + carouselItems.length) % carouselItems.length;
+  updateCarousel();
+}
+
+function updateCarousel() {
+  const carouselWidth = document.querySelector('.carousel-inner').offsetWidth;
+  document.querySelector('.carousel-inner').style.transform = `translateX(-${currentIndex * carouselWidth}px)`;
+}
+
+updateCarousel();
+
+</script>
+</body>
+</html>
